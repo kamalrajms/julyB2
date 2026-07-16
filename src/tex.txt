@@ -41,3 +41,40 @@
 
             declearing Props
             deStructuring props
+
+16/07/2026
+
+## style in react
+
+    Global Style --  index.css and App.css are called as Global style files
+    External Style -- to create a seperate style file for a component.
+    module Style -- we need to create a seperate style file with file name as eg:[filename.module.css]
+    Inline Style -- we need to add style attribute with {{padding:"20px"}}
+    object Style -- we need to decleare properties in objest way.
+                        we need to call object in style atttribute.
+
+## useState()
+
+    useState is a react hook that allows you to add state (data that can change over time)
+    to a function component.
+
+    Normally, in js function , variables are disapper after the function runs, but in 
+    with useState, react remembers values b/w re-render.
+
+
+    syntax:
+
+
+        const [state,setState]=useState(initialValue)
+
+        state-- the current value of the state variables
+        setState--- a function that update the state
+        initialValue---  the starting value of the state.
+
+        eg:
+
+            const count=20;
+
+            
+
+

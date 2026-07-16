@@ -1,6 +1,10 @@
 import React from "react";
 import Greeting from "./Greeting";
 import DeStructuringProps from "./component/DeStructuringProps";
+import ExternalStyle from "./component/ExternalStyle";
+import ModuleStyle from "./component/ModuleStyle";
+import ObjectStyle from "./component/ObjectStyle";
+import UseStateHook from "./component/UseStateHook";
 
 export default function App() {
   const name = "kumar";
@@ -17,7 +21,11 @@ export default function App() {
 
   return (
     <>
-      <h1>Hello world -- {name}</h1>
+      <UseStateHook />
+      <ObjectStyle />
+      <ModuleStyle />
+      <h1 style={{ padding: "20px", color: "red" }}>Hello world -- {name}</h1>
+      <ExternalStyle />
       <Greeting first={name} age={age} />
       <DeStructuringProps name={name} age={age} city={city} />
       <DeStructuringProps name={name2} age={age2} city={city2} />

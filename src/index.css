@@ -1,0 +1,17 @@
+.greeting {
+  background-color: aqua;
+  color: blueviolet;
+  padding: 20px;
+}
+.hello {
+  background-color: black;
+  color: aliceblue;
+  padding: 30px;
+}
+
+.external {
+  margin: 200px;
+}
+.modulestyle {
+  margin: 200px;
+}
