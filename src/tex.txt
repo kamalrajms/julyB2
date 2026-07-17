@@ -76,5 +76,26 @@
             const count=20;
 
             
+17/07/2026
 
+## Conditional rendering
+
+    Conditional rendering means showing or hiding parts of UI baed on 
+    some condition .
+                ternary operator {condition ? true : false}
+                logical operator &&   ||    !
+
+
+## list Rendering 
+
+    rendering multiple of items dynamically using map().
+
+
+    array=[1,2,3,4]
+
+    array.map((num)=>(
+        num*2
+    ))
+
+    new updated array=[2,4,6,8]
 

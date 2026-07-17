@@ -5,6 +5,9 @@ import ExternalStyle from "./component/ExternalStyle";
 import ModuleStyle from "./component/ModuleStyle";
 import ObjectStyle from "./component/ObjectStyle";
 import UseStateHook from "./component/UseStateHook";
+import ConditionalRendering from "./component/ConditionalRendering";
+import LIstRendering from "./component/LIstRendering";
+import DarkMode from "./component/DarkMode";
 
 export default function App() {
   const name = "kumar";
@@ -18,9 +21,12 @@ export default function App() {
   const name3 = "AK";
   const age3 = 26;
   const city3 = "chennai";
+  const user = false;
 
   return (
     <>
+      <DarkMode />
+      {user ? <LIstRendering /> : <ConditionalRendering />}
       <UseStateHook />
       <ObjectStyle />
       <ModuleStyle />
