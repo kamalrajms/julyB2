@@ -8,6 +8,9 @@ import UseStateHook from "./component/UseStateHook";
 import ConditionalRendering from "./component/ConditionalRendering";
 import LIstRendering from "./component/LIstRendering";
 import DarkMode from "./component/DarkMode";
+import Field from "./component/Field";
+import RegFrom from "./component/RegFrom";
+import ConditionalForm from "./component/ConditionalForm";
 
 export default function App() {
   const name = "kumar";
@@ -25,6 +28,9 @@ export default function App() {
 
   return (
     <>
+      <ConditionalForm />
+      <RegFrom />
+      <Field />
       <DarkMode />
       {user ? <LIstRendering /> : <ConditionalRendering />}
       <UseStateHook />
