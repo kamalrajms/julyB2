@@ -11,6 +11,9 @@ import DarkMode from "./component/DarkMode";
 import Field from "./component/Field";
 import RegFrom from "./component/RegFrom";
 import ConditionalForm from "./component/ConditionalForm";
+import UseEffectHook from "./component/UseEffectHook";
+import Timer from "./component/Timer";
+import StopWatch from "./component/StopWatch";
 
 export default function App() {
   const name = "kumar";
@@ -28,6 +31,9 @@ export default function App() {
 
   return (
     <>
+      <StopWatch />
+      <Timer />
+      <UseEffectHook />
       <ConditionalForm />
       <RegFrom />
       <Field />

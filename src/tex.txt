@@ -99,3 +99,25 @@
 
     new updated array=[2,4,6,8]
 
+
+21/07/2026
+
+## useEffect()
+
+     In react ,useEffect is a hook that lets you perform side effect in function 
+     component.
+     Side effect are task that happen outside the normal react rendering process , like:
+
+
+            fetch data from API
+            updateing the browser dom manually
+            strting/stoping timers
+
+
+    syntax:
+
+        useEffect(()=>{
+            //code
+        },[dependency 1,dependency 2....])
+
+        [] -- it will execute only once at initially.
