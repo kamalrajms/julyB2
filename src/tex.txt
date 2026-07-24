@@ -121,3 +121,20 @@
         },[dependency 1,dependency 2....])
 
         [] -- it will execute only once at initially.
+
+
+## useRef()
+
+    useRef is a React hook that gives you a box (.current) you can store anything in
+    --like num,str,obj,function,even dom element.
+
+    That value persists b/w render
+
+    Updating it does not cause your component to re-render.
+
+    {current:value}
+
+
+    syntax:
+
+        const variables=useRef(initialValue)

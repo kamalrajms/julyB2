@@ -15,3 +15,19 @@
 .modulestyle {
   margin: 200px;
 }
+
+.image {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.org-image {
+  /* background-color: aqua; */
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+}
